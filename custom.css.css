@@ -1,8 +1,8 @@
 /* Common Styles */
 /* Set overall background color */
 .reveal {
-    background-color: #522E91; /* Purple background */
-    color: #FFFFFF; /* White text color */
+    background-color: #FFFFFF; /* Purple background */
+    color: #000000; /* White text color */
     font-family: 'Roboto Slab', serif; /* Headline font */
 }
 
@@ -11,6 +11,13 @@
     font-family: 'Roboto', sans-serif; /* Body copy font */
 }
 
+.reveal .special-slide{
+    background-color: #522E91;
+}
+
+.reveal .slides section.special-slide h2{
+    color: #F26649;
+}
 /* Example: Styling a specific slide */
 .reveal .slides section.slide1 {
     background-color: #F26649; /* Orange background for slide 1 */
@@ -23,7 +30,7 @@
 }
  
 .reveal .slides section h2{
-    color: #F26649; /* white */
+    color: #522E91; /* white */
     font-family: 'Roboto Slab', serif; /* Headline font for headings */ 
 }
 
@@ -32,12 +39,12 @@
     font-family: 'Roboto Slab', serif; /* Headline font for headings */
 }
 
-.reveal strong { color: lawngreen;
+.reveal strong { color: #60C2AC;
                  font-style: normal;
                  font-weight: bold;
                }
 
-.reveal em { color: magenta;
+.reveal em { color: #F26649;
                  font-style: normal;
                  font-weight: bold;
                }

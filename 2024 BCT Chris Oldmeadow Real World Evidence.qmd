@@ -6,7 +6,7 @@ title-slide-attributes:
 author: "A/Prof Chris Oldmeadow"
 format:
   revealjs:
-    logo: "HMRILogo_white_wide2.png"
+    logo: "HMRILogo_black_wide.png"
     css: "custom.css.css"
 
 ---
@@ -44,26 +44,29 @@ Problems:
 
 ## Real World Data
 
--   EMR (structured and unstructured clinical data reports, imaging, pathology, detailed treatment information)
--   State-wide administrative datasets
+::: {.incremental}
+- **EMR** (structured and unstructured clinical data reports, imaging, pathology, detailed treatment information)
+-   **State-wide administrative datasets**
     -   Eg NSW Admitted Patient Data collection (Patient admission and discharge date, diagnostic codes, procedures), Emergency Department Data Collection
     -   not designed for research
-    -   important clinical details (eg performance status, comorbidity, data on treatment including rational as well as key pathological features) are frequently poorly documented
+    -   important clinical details are frequently poorly documented
+::: 
 
 ## Real World Data (ctd)
-
--   Cancer registries
+::: {.incremental}
+-   **Cancer registries**
     -   Richer data sets
     -   state-level registries only offer a core minimum dataset, have missing data, completeness of variables and timelines
     -   multi-disciplinary,Multi-site national/international registries: more granular level data
--   Linked data sets
+-   **Linked data sets**
+:::
 
-## Limitations of Real World Data
-
+## Limitations of Real World Data {.special-slide}
+<div class="center-text">
 1.  Data availability and quality
 2.  Confounding due to no randomisation
-
-## Observational data and the C-Word
+</div>
+## Observational data and the C-Word {.special-slide}
 
 " Dear author: Your observational study cannot prove causation. Please replace all references to causal effects by references to associations."
 
@@ -82,7 +85,8 @@ Plan analysis as though data are from a **hypothetical trial**:
 -   Causal contrast (eg ITT effect)
 -   Analysis plan
 
-## Example
+## Example {.special-slide} 
+
 
 ![Miguel A. Hernán, James M. Robins, Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available, American Journal of Epidemiology, Volume 183, Issue 8, 15 April 2016, Pages 758–764](assets/target-trial.png)
 
@@ -92,7 +96,7 @@ Plan analysis as though data are from a **hypothetical trial**:
 -   “Draw your assumptions before your conclusions”
 -   forces the research team to carefully think through the confounding variables and their interrelationships
 
-## Example: bevacizumab added to paclitaxel in HER2-negative MBC 
+## Example: bevacizumab added to paclitaxel in HER2-negative MBC {.special-slide}
 
 ![Antoine A et al. Target trial emulation to assess real-world efficacy in the Epidemiological Strategy and Medical Economics metastatic breast cancer cohort. J Natl Cancer Inst. 2023 Aug 8;115(8):971-980.](assets/DAG.png) 
 
