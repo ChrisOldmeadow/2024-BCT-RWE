@@ -1,0 +1,47 @@
+/* Common Styles */
+/* Set overall background color */
+.reveal {
+    background-color: #522E91; /* Purple background */
+    color: #FFFFFF; /* White text color */
+    font-family: 'Roboto Slab', serif; /* Headline font */
+}
+
+/* Set body copy font */
+.reveal .slides section {
+    font-family: 'Roboto', sans-serif; /* Body copy font */
+}
+
+/* Example: Styling a specific slide */
+.reveal .slides section.slide1 {
+    background-color: #F26649; /* Orange background for slide 1 */
+}
+
+/* Example: Styling headings */
+.reveal .slides section h1{
+    color: #FFFFFF; /* white */
+    font-family: 'Roboto Slab', serif; /* Headline font for headings */ 
+}
+ 
+.reveal .slides section h2{
+    color: #F26649; /* white */
+    font-family: 'Roboto Slab', serif; /* Headline font for headings */ 
+}
+
+.reveal .slides section h3 {
+    color: #F26649; /* HMRI orange */
+    font-family: 'Roboto Slab', serif; /* Headline font for headings */
+}
+
+.reveal strong { color: lawngreen;
+                 font-style: normal;
+                 font-weight: bold;
+               }
+
+.reveal em { color: magenta;
+                 font-style: normal;
+                 font-weight: bold;
+               }
+
+
+
+

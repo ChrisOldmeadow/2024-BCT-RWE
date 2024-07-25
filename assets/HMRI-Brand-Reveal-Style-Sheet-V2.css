@@ -1,0 +1,35 @@
+/* Common Styles */
+.reveal {
+    font-family: 'Roboto Slab', serif; /* Headline font */
+    background-image: linear-gradient(40deg, #FFA81A 10%, #522E91 90%);
+    color: #FFFFFF; /* Default white text color */
+}
+
+.reveal .slides section {
+    font-family: 'Roboto', sans-serif; /* Body copy font */
+}
+
+.reveal .slides section h1,
+.reveal .slides section h2,
+.reveal .slides section h3 {
+    font-family: 'Roboto Slab', serif; /* Headline font for headings */
+}
+
+.reveal {
+    background-image: url('https://hmri.org.au/sites/default/files/hmri-homepage_2.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 150px; /* Adjust size as needed */
+}
+
+/* Light Mode Styles */
+.light-mode .reveal {
+    background-color: #FFFFFF; /* White background */
+    color: #000000; /* Black text color */
+}
+
+/* Dark Mode Styles */
+.dark-mode .reveal {
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text color */
+}

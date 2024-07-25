@@ -1,0 +1,141 @@
+---
+title: "Interpreting evidence from real world data"
+title-slide-attributes:
+  data-background-image: hmri_title.png
+  data-background-size: contain
+author: "A/Prof Chris Oldmeadow"
+format:
+  revealjs:
+    logo: "HMRILogo_white_wide2.png"
+    css: "custom.css.css"
+
+---
+
+## Presentation overview
+
+-   The RCT and Problems with RCT
+-   Real World evidence
+-   Causal modelling with observational data
+-   The target trial framework
+-   Touch on some statistical concepts (propensity matching)
+
+## The RCT
+
+::: columns
+::: {.column width="60%"}
+Problems:
+
+-   Expensive
+-   Long duration
+-   Not always possible
+-   External validity
+:::
+
+::: {.column width="40%"}
+<img src="assets/randomisation.png" alt="the gold standard for causal effects" width="500" height="600"/>
+:::
+:::
+
+## What is Real world Data
+
+-   FDA definition “healthcare information derived from multiple sources outside of typical clinical research settings, including *electronic medical records (EMRs)*, *claims and billing data*, *product and disease registries*, and data gathered by *personal devices and health applications*”
+
+-   Offers a chance to identify and address gaps in clinical trial evidence
+
+## Real World Data
+
+-   EMR (structured and unstructured clinical data reports, imaging, pathology, detailed treatment information)
+-   State-wide administrative datasets
+    -   Eg NSW Admitted Patient Data collection (Patient admission and discharge date, diagnostic codes, procedures), Emergency Department Data Collection
+    -   not designed for research
+    -   important clinical details (eg performance status, comorbidity, data on treatment including rational as well as key pathological features) are frequently poorly documented
+
+## Real World Data (ctd)
+
+-   Cancer registries
+    -   Richer data sets
+    -   state-level registries only offer a core minimum dataset, have missing data, completeness of variables and timelines
+    -   multi-disciplinary,Multi-site national/international registries: more granular level data
+-   Linked data sets
+
+## Limitations of Real World Data
+
+1.  Data availability and quality
+2.  Confounding due to no randomisation
+
+## Observational data and the C-Word
+
+" Dear author: Your observational study cannot prove causation. Please replace all references to causal effects by references to associations."
+
+![](assets/c-word.png)
+
+## The Target Trial framework
+
+Plan analysis as though data are from a **hypothetical trial**:
+
+-   Eligibility criteria
+-   Time zero
+-   Treatment strategy clear definition\
+-   Assignment procedure\
+-   Follow-up period
+-   Outcome
+-   Causal contrast (eg ITT effect)
+-   Analysis plan
+
+## Example
+
+![Miguel A. Hernán, James M. Robins, Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available, American Journal of Epidemiology, Volume 183, Issue 8, 15 April 2016, Pages 758–764](assets/target-trial.png)
+
+## Minimising the effect of confounders
+
+-   DAGs are useful tool for considering confounders
+-   “Draw your assumptions before your conclusions”
+-   forces the research team to carefully think through the confounding variables and their interrelationships
+
+## Example: bevacizumab added to paclitaxel in HER2-negative MBC 
+
+![Antoine A et al. Target trial emulation to assess real-world efficacy in the Epidemiological Strategy and Medical Economics metastatic breast cancer cohort. J Natl Cancer Inst. 2023 Aug 8;115(8):971-980.](assets/DAG.png) 
+
+## Propensity Matching
+
+-   create a “matched population” where the treated and untreated are exchangeable (similar in all other characteristics)
+
+-   Propensity scores allow is to determine similarity
+
+-   Propensity score is prob of treatment conditional on confounders
+
+-   For each treated individual find a untreated individual with a similar propensity score
+
+## How well did we achieve ballance
+
+::: columns
+::: {.column width="50%"}
+![](assets/ballance_overlap.png)
+:::
+
+::: {.column width="50%"}
+![](assets/ballance_love_plot.png)
+:::
+:::
+
+## What about umeasured confounders??
+
+-   Should perform a sensitivity analysis
+
+-   How robust are the results/conclusions to possible un-measured confounders
+
+-   The E-value - How big a relative risk (between exposure and confounder) would need be to nullify an effect
+
+-   If bigger than any of the measured ones then that means unlikely
+
+-   If small then casts doubt on the results
+
+## Conclusions
+
+-   We can talk about causal effects from real world data
+-   There are many great local resources
+-   Should use the target trial framework
+-   More advanced methods for controlling confounders
+-   Need sensitivity analyses
+
+##  {background-image="questions.png" background-size="cover"}
