@@ -3,10 +3,10 @@ title: "Interpreting evidence from real world data"
 title-slide-attributes:
   data-background-image: hmri_title.png
   data-background-size: contain
+slide-number: true
 author: "A/Prof Chris Oldmeadow"
 format:
   revealjs:
-    logo: "HMRILogo_black_wide.png"
     css: "custom.css.css"
 
 ---
@@ -142,4 +142,5 @@ Plan analysis as though data are from a **hypothetical trial**:
 -   More advanced methods for controlling confounders
 -   Need sensitivity analyses
 
-##  {background-image="questions.png" background-size="cover"}
+#  {.special-slide}
+Questions?
