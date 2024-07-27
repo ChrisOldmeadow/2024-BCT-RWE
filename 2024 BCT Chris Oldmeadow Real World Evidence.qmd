@@ -142,5 +142,4 @@ Plan analysis as though data are from a **hypothetical trial**:
 -   More advanced methods for controlling confounders
 -   Need sensitivity analyses
 
-#  {.special-slide}
-Questions?
+##  {background-image="questions.png" background-size="cover"}
